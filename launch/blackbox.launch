@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="rosbag" type="record" name="blackbox"
+        args="record -o /home/pi/blackbox/blackbox /arm /cmd /fcs /imu/data_raw /tf /state"/>
+</launch>

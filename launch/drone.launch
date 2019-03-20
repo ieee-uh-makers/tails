@@ -1,0 +1,6 @@
+<launch>
+  <include file="tails.launch"/>
+  <include file="fcs.launch"/>
+  <include file="lsm9ds0.launch"/>
+  <include file="blackbox.launch"/>
+</launch>

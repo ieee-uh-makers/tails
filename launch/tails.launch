@@ -1,0 +1,12 @@
+<launch>
+
+  <node pkg="tails" type="tails_node.py" name="tails" output="screen">
+    <param name="~watchdog_timeout" value="10"/>
+
+    <param name="~land_accel_z_mean" value="0.6494140625"/>
+    <param name="~land_accel_z_mean_percent" value="0.20"/>
+    <param name="~land_accel_z_std" value="0.04"/>
+
+  </node>
+
+</launch>

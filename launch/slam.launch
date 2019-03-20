@@ -1,0 +1,4 @@
+<launch>
+  <include file="realsense.launch"/>
+  <include file="rtabmap.launch"/>
+</launch>
